@@ -30,8 +30,8 @@ fn build_ui(application: &Application) {
         .margin_end(12)
         .build();
 
-    let mut number = Rc::new(Cell::new(0));
-    let number_copy = number.clone();
+    let number = Rc::new(Cell::new(0));
+    let _number_copy = number.clone();
     /*
      button.connect_clicked(|_|{
         button.set_label("オオアオ");
