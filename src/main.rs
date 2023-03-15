@@ -31,6 +31,7 @@ fn build_ui(application: &Application) {
         .build();
 
     let number = Rc::new(Cell::new(0));
+
     let _number_copy = number.clone();
     /*
      button.connect_clicked(|_|{
